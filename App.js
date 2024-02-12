@@ -4,7 +4,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Another hello world</Text>
-      <Text>hello world</Text>
+      <Text
+        style={{ margin: 30, borderWidth: 2, borderColor: 'red', padding: 16 }}
+      >
+        hello world
+      </Text>
       <Button title="Push me!" />
     </View>
   );
